@@ -15,10 +15,12 @@
 <meta property="og:site_name" content="小白童鞋">
 <meta property="og:description" content="写内容1hexo new [layout] &amp;lt;title&amp;gt;  layout: 可选的，指定创建文件的类型，类型包括：post（文章）、page（页面）、draft（草稿）。如果没有指定该参数，则使用_config.yml配置文件default指定的类型。 title: 必选的，指定文章的标题，如果标题中包含空格，则需要使用引号包裹标题。  在新建文章时，hexo会去手脚架目录(scaf">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-31T00:56:24.214Z">
+<meta property="og:image" content="https://octodex.github.com/images/yaktocat.png">
+<meta property="og:updated_time" content="2018-05-31T02:00:15.859Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="my-first-post">
 <meta name="twitter:description" content="写内容1hexo new [layout] &amp;lt;title&amp;gt;  layout: 可选的，指定创建文件的类型，类型包括：post（文章）、page（页面）、draft（草稿）。如果没有指定该参数，则使用_config.yml配置文件default指定的类型。 title: 必选的，指定文章的标题，如果标题中包含空格，则需要使用引号包裹标题。  在新建文章时，hexo会去手脚架目录(scaf">
+<meta name="twitter:image" content="https://octodex.github.com/images/yaktocat.png">
   
     <link rel="alternative" href="/atom.xml" title="小白童鞋" type="application/atom+xml">
   
@@ -189,6 +191,99 @@
 <h1 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
 <h1 id="清除编译之后的结果，删除public目录"><a href="#清除编译之后的结果，删除public目录" class="headerlink" title="清除编译之后的结果，删除public目录"></a>清除编译之后的结果，删除public目录</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 <h1 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h1 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h1><h1 id="标题（Headers）"><a href="#标题（Headers）" class="headerlink" title="标题（Headers）"></a>标题（Headers）</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">###### 总共六级标题</span></span><br></pre></td></tr></table></figure>
+<h1 id="强调（Emphasis）"><a href="#强调（Emphasis）" class="headerlink" title="强调（Emphasis）"></a>强调（Emphasis）</h1><p><em>this text will be italic(用空格换行)</em></p>
+<p>_This will also be italic</p>
+<p><strong>This text will be blod</strong></p>
+<p><strong>This will also be blod</strong></p>
+<h1 id="引用（Block-quotes）"><a href="#引用（Block-quotes）" class="headerlink" title="引用（Block quotes）"></a>引用（Block quotes）</h1><p>As Grace Hopper said:</p>
+<blockquote>
+<p>I’ve always been more intereted<br>in the future than in the past.</p>
+</blockquote>
+<h1 id="列表（Lists）"><a href="#列表（Lists）" class="headerlink" title="列表（Lists）"></a>列表（Lists）</h1><h2 id="无序列表（三种可以混合使用）"><a href="#无序列表（三种可以混合使用）" class="headerlink" title="无序列表（三种可以混合使用）"></a>无序列表（三种可以混合使用）</h2><ul>
+<li>Item 1（github默认语法）</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3<ul>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ul>
+</li>
+</ol>
+<h1 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h1><p><a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> - Github</p>
+<p><a href="https://nvlinnaxi.github.io" target="_blank" rel="noopener">小白童鞋</a></p>
+<h1 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h1><p>(注意： 方括号前面加感叹号时，右边预览可看到图片，否则只是个链接)</p>
+<p><a href="https://octodex.github.com/images/yaktocat.png" target="_blank" rel="noopener">Image of Yaktocat</a></p>
+<p><img src="https://octodex.github.com/images/yaktocat.png" alt="Image of Yaktocat"></p>
+<h1 id="代码块（Code-block）"><a href="#代码块（Code-block）" class="headerlink" title="代码块（Code block）"></a>代码块（Code block）</h1><h2 id="无颜色渲染代码"><a href="#无颜色渲染代码" class="headerlink" title="无颜色渲染代码"></a>无颜色渲染代码</h2><p>代码块前面加table 跟 三个小点（<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>function sun (x, y) {<br>    return x + y;<br>}<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">    function sun (x, y) &#123;</span><br><span class="line">        return x + y;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">## 高亮代码</span><br><span class="line"></span><br><span class="line">```javascript</span><br><span class="line">function sun (x, y) &#123;</span><br><span class="line">    return x + y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="行内代码（Inline-code）"><a href="#行内代码（Inline-code）" class="headerlink" title="行内代码（Inline code）"></a>行内代码（Inline code）</h1><h2 id="行内代码用（）包裹起来"><a href="#行内代码用（）包裹起来" class="headerlink" title="行内代码用（）包裹起来"></a>行内代码用（<code></code>）包裹起来</h2><p>如：列出指定类型的信息，可用的类型有：<code>page</code>，<code>post</code>，<code>route</code>，<code>tag</code>，<code>category</code>。</p>
+<h1 id="表格（Tables）"><a href="#表格（Tables）" class="headerlink" title="表格（Tables）"></a>表格（Tables）</h1><table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell 1</td>
+<td>Cell 2 </td>
+</tr>
+<tr>
+<td>Column 1</td>
+<td>Column 2 </td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell 1</td>
+<td>Cell 2</td>
+</tr>
+<tr>
+<td>Column 1</td>
+<td>Column 2</td>
+</tr>
+</tbody>
+</table>
+<h1 id="任务列表（Task-lists）"><a href="#任务列表（Task-lists）" class="headerlink" title="任务列表（Task lists）"></a>任务列表（Task lists）</h1><ul>
+<li style="list-style: none"><input type="checkbox"> 交电费</li>
+<li>[X] 还信用卡</li>
+<li style="list-style: none"><input type="checkbox"> 帮妈妈买菜</li>
+<li>[X] 下班打卡</li>
+</ul>
+
       
 
       
@@ -457,11 +552,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
+              <a href="http://www.runoob.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>菜鸟教程</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
+              <a href="https://v3.bootcss.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>bootstrap中文网</a>
             </li>
           
             <li class="search-li">
@@ -477,7 +572,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="https://blog.csdn.net/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>博客专业IT技术平台</a>
             </li>
           
         </ul>
