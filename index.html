@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>小白童鞋</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="小白童鞋">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="小白童鞋">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="小白童鞋">
+  
+    <link rel="alternate" href="/atom.xml" title="小白童鞋" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">小白童鞋</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">安然</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-my-first-post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/05/30/my-first-post/" class="article-date">
+  <time datetime="2018-05-30T11:40:20.000Z" itemprop="datePublished">2018-05-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/30/my-first-post/">my-first-post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="写内容"><a href="#写内容" class="headerlink" title="写内容"></a>写内容</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>layout: 可选的，指定创建文件的类型，类型包括：post（文章）、page（页面）、draft（草稿）。如果没有指定该参数，则使用<code>_config.yml</code>配置文件<code>default</code>指定的类型。</li>
+<li>title: 必选的，指定文章的标题，如果标题中包含空格，则需要使用引号包裹标题。</li>
+</ul>
+<p>在新建文章时，hexo会去手脚架目录(scaffolds)查找是否有指定类型的手脚架文件，如果有则使用该文件作为模板创建新的文件。</p>
+<h1 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<p>将<code>_draft</code>目录中指定的文件移动到<code>_posts</code>目录中 或作为一个新建的页面生成。</p>
+<h1 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<h1 id="清除编译之后的结果，删除public目录"><a href="#清除编译之后的结果，删除public目录" class="headerlink" title="清除编译之后的结果，删除public目录"></a>清除编译之后的结果，删除public目录</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<h1 id="启动本地服务器"><a href="#启动本地服务器" class="headerlink" title="启动本地服务器"></a>启动本地服务器</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h1 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h1><h1 id="标题（Headers）"><a href="#标题（Headers）" class="headerlink" title="标题（Headers）"></a>标题（Headers）</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">###### 总共六级标题</span></span><br></pre></td></tr></table></figure>
+<h1 id="强调（Emphasis）"><a href="#强调（Emphasis）" class="headerlink" title="强调（Emphasis）"></a>强调（Emphasis）</h1><p><em>this text will be italic(用空格换行)</em></p>
+<p>_This will also be italic</p>
+<p><strong>This text will be blod</strong></p>
+<p><strong>This will also be blod</strong></p>
+<h1 id="引用（Block-quotes）"><a href="#引用（Block-quotes）" class="headerlink" title="引用（Block quotes）"></a>引用（Block quotes）</h1><p>As Grace Hopper said:</p>
+<blockquote>
+<p>I’ve always been more intereted<br>in the future than in the past.</p>
+</blockquote>
+<h1 id="列表（Lists）"><a href="#列表（Lists）" class="headerlink" title="列表（Lists）"></a>列表（Lists）</h1><h2 id="无序列表（三种可以混合使用）"><a href="#无序列表（三种可以混合使用）" class="headerlink" title="无序列表（三种可以混合使用）"></a>无序列表（三种可以混合使用）</h2><ul>
+<li>Item 1（github默认语法）</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3<ul>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ul>
+</li>
+</ol>
+<h1 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h1><p><a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> - Github</p>
+<p><a href="https://nvlinnaxi.github.io" target="_blank" rel="noopener">小白童鞋</a></p>
+<h1 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h1><p>(注意： 方括号前面加感叹号时，右边预览可看到图片，否则只是个链接)</p>
+<p><a href="https://octodex.github.com/images/yaktocat.png" target="_blank" rel="noopener">Image of Yaktocat</a></p>
+<p><img src="https://octodex.github.com/images/yaktocat.png" alt="Image of Yaktocat"></p>
+<h1 id="代码块（Code-block）"><a href="#代码块（Code-block）" class="headerlink" title="代码块（Code block）"></a>代码块（Code block）</h1><h2 id="无颜色渲染代码"><a href="#无颜色渲染代码" class="headerlink" title="无颜色渲染代码"></a>无颜色渲染代码</h2><p>代码块前面加table跟三个小点相同效果</p>
+<pre><code>function sun (x, y) {
+    return x + y;
+}
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">function sun (x, y) &#123;</span><br><span class="line">    return x + y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="高亮代码"><a href="#高亮代码" class="headerlink" title="高亮代码"></a>高亮代码</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sun</span> (<span class="params">x, y</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x + y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="行内代码（Inline-code）"><a href="#行内代码（Inline-code）" class="headerlink" title="行内代码（Inline code）"></a>行内代码（Inline code）</h1><h2 id="行内代码用（）包裹起来"><a href="#行内代码用（）包裹起来" class="headerlink" title="行内代码用（）包裹起来"></a>行内代码用（<code></code>）包裹起来</h2><p>如：列出指定类型的信息，可用的类型有：<code>page</code>，<code>post</code>，<code>route</code>，<code>tag</code>，<code>category</code>。</p>
+<h1 id="表格（Tables）"><a href="#表格（Tables）" class="headerlink" title="表格（Tables）"></a>表格（Tables）</h1><p>默认左对齐</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell 1</td>
+<td>Cell 2 </td>
+</tr>
+<tr>
+<td>Column 1</td>
+<td>Column 2 </td>
+</tr>
+</tbody>
+</table>
+<p>右对齐（右边加英文冒号(:)）</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">First Header</th>
+<th style="text-align:right">Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">Cell 1</td>
+<td style="text-align:right">Cell 2</td>
+</tr>
+<tr>
+<td style="text-align:right">Column 1</td>
+<td style="text-align:right">Column 2</td>
+</tr>
+</tbody>
+</table>
+<p>居中对齐（两边加英文状态的冒号(:)）</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">First Header</th>
+<th style="text-align:center">Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Cell 1</td>
+<td style="text-align:center">Cell 2</td>
+</tr>
+<tr>
+<td style="text-align:center">Column 1</td>
+<td style="text-align:center">Column 2</td>
+</tr>
+</tbody>
+</table>
+<h1 id="任务列表（Task-lists）"><a href="#任务列表（Task-lists）" class="headerlink" title="任务列表（Task lists）"></a>任务列表（Task lists）</h1><ul>
+<li style="list-style: none"><input type="checkbox"> 交电费</li>
+<li style="list-style: none"><input type="checkbox" checked> 还信用卡</li>
+<li style="list-style: none"><input type="checkbox"> 帮妈妈买菜</li>
+<li style="list-style: none"><input type="checkbox" checked> 下班打卡</li>
+</ul>
+<h1 id="表情（Emoji）"><a href="#表情（Emoji）" class="headerlink" title="表情（Emoji）"></a>表情（Emoji）</h1><p><a href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener">Emoji Cheat Sheet</a></p>
+<ul>
+<li>点赞 +1:</li>
+<li>微笑 :smile:</li>
+<li>魏霞 :bowtie:</li>
+<li>魏霞 :smile:</li>
+<li>魏霞 :simple_smile:</li>
+<li>魏霞 :laughing:</li>
+<li>魏霞 :blush:</li>
+<li>魏霞 :smiley:</li>
+<li>魏霞 :relaxed:</li>
+<li>魏霞 :smirk:</li>
+</ul>
+<h1 id="转义（Escape）"><a href="#转义（Escape）" class="headerlink" title="转义（Escape）"></a>转义（Escape）</h1><p>*literal asterishs*</p>
+<p>` backtick</p>
+<ul>
+<li>asterisk<br>_ underscore<br>{} curly braces<br>[] square brackets<br>() parentheses<h1 id="hash-mark"><a href="#hash-mark" class="headerlink" title="hash mark"></a>hash mark</h1></li>
+</ul>
+<ul>
+<li>plus sign</li>
+</ul>
+<ul>
+<li>minus sign (hyphen)<br>. dot<br>! exclamation mark</li>
+</ul>
+<p>反斜杠可以转义的字符如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">` backtick</span><br><span class="line">* asterisk</span><br><span class="line">_ underscore</span><br><span class="line">&#123;&#125; curly braces</span><br><span class="line">[] square brackets</span><br><span class="line">() parentheses</span><br><span class="line"># hash mark</span><br><span class="line">+ plus sign</span><br><span class="line">- minus sign (hyphen)</span><br><span class="line">. dot</span><br><span class="line">! exclamation mark</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/05/30/my-first-post/" data-id="cjhtyic040004mgmk8zn2qz4i" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/05/30/hello-world/" class="article-date">
+  <time datetime="2018-05-30T11:31:52.029Z" itemprop="datePublished">2018-05-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/30/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/05/30/hello-world/" data-id="cjhtyibzv0001mgmkfwb9lq3u" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexo-getting-start" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/05/30/hexo-getting-start/" class="article-date">
+  <time datetime="2018-05-30T06:55:48.000Z" itemprop="datePublished">2018-05-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/学习/">学习</a>►<a class="article-category-link" href="/categories/学习/前端/">前端</a>►<a class="article-category-link" href="/categories/学习/前端/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/30/hexo-getting-start/">使用 Hexo 构建个人博客站点</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="安装构建工具"><a href="#安装构建工具" class="headerlink" title="安装构建工具"></a>安装构建工具</h2><p>全局安装 hexo-cli</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h2 id="检验版本信息"><a href="#检验版本信息" class="headerlink" title="检验版本信息"></a>检验版本信息</h2><p><strong>version</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo version</span><br></pre></td></tr></table></figure>
+<p>显示版本信息。</p>
+<h2 id="初始化站点"><a href="#初始化站点" class="headerlink" title="初始化站点"></a>初始化站点</h2><p><strong>init</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure>
+<p>初始化站点。如果没有提供 <code>folder</code>，Hexo会在当前目录下创建站点。</p>
+<h2 id="新建文章页面"><a href="#新建文章页面" class="headerlink" title="新建文章页面"></a>新建文章页面</h2><p><strong>new</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>layout：可选的，指定创建文件的类型，类型包括：<code>post</code>（文章）、<code>page</code>（页面）、<code>draft</code>（草稿）。如果没有指定该参数，则使用 <code>_config.yml</code> 配置文件 <code>default</code> 指定的类型。</li>
+<li>title：必须的，指定文章的标题，如果标题中包含空格，则需要使用引号包裹标题。</li>
+</ul>
+<p>在新建文章时，hexo会去脚手架目录（scaffolds）查找是否有指定类型的脚手架文件，如果有则使用该文件作为模板创建新的文件。</p>
+<h2 id="发布文章草稿"><a href="#发布文章草稿" class="headerlink" title="发布文章草稿"></a>发布文章草稿</h2><p><strong>publish</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<p>发布草稿。</p>
+<p>该命令会根据 <code>layout</code> 参数的不同，将 <code>_draft</code> 文件夹中的草稿发不成文章（移动到 <code>_posts</code> 文件夹中），或作为一个新建的页面生成。</p>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><p><strong>generate</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>生成静态文件。</p>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>-d</code>，<code>--deploy</code></td>
+<td>生成静态文件之后部署</td>
+</tr>
+<tr>
+<td><code>-w</code>，<code>--watch</code></td>
+<td>监视文件的改变</td>
+</tr>
+<tr>
+<td><code>-b</code>，<code>--bail</code></td>
+<td>Raise an error if any unhandled exception is thrown during generation</td>
+</tr>
+<tr>
+<td><code>-f</code>， <code>--force</code></td>
+<td>强制生成</td>
+</tr>
+</tbody>
+</table>
+<h2 id="清除静态文件"><a href="#清除静态文件" class="headerlink" title="清除静态文件"></a>清除静态文件</h2><p><strong>clean</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+<p>清除编译之后的结果，删除public目录</p>
+<h2 id="查看站点信息"><a href="#查看站点信息" class="headerlink" title="查看站点信息"></a>查看站点信息</h2><p><strong>list</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo list &lt;<span class="built_in">type</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>列出指定类型的信息，可用的类型有：<code>page</code>，<code>post</code>，<code>route</code>，<code>tag</code>，<code>category</code>。</p>
+<h2 id="本地预览站点"><a href="#本地预览站点" class="headerlink" title="本地预览站点"></a>本地预览站点</h2><p><strong>server</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>开启一个本地服务器。默认情况下，是在：<code>http://localhost:4000/</code>。</p>
+<h2 id="安装部署工具"><a href="#安装部署工具" class="headerlink" title="安装部署工具"></a>安装部署工具</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:mthghclw/mthghclw.github.io.git</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br><span class="line"><span class="attr">  message:</span> <span class="string">更新站点</span></span><br></pre></td></tr></table></figure>
+<h2 id="生成认证密钥"><a href="#生成认证密钥" class="headerlink" title="生成认证密钥"></a>生成认证密钥</h2><ol>
+<li><p>打开 Git Bash。</p>
+</li>
+<li><p>将下面的文本粘贴到 Git Bash 中，然后把邮箱修改成你的 Github Email 地址。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure>
+<p>这会创建一个新的 ssh key，使用邮箱作为标签。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private rsa key pair.  </span><br><span class="line"><span class="comment"># 生成一对公钥和私钥</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>确认 key 放到哪，直接按回车（Enter），表示接受默认位置。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置安全口令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase): [Type a passphrase]</span><br><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="添加认证密钥"><a href="#添加认证密钥" class="headerlink" title="添加认证密钥"></a>添加认证密钥</h2><p>将生成的 SSH key 添加到你的 Github 账户</p>
+<ol>
+<li><p>将 SSH key 复制到粘贴板。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ clip &lt; ~/.ssh/id_rsa.pub</span><br><span class="line"><span class="comment"># 将 id_rsa.pub 文件的内容拷贝到粘贴板</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开 Github 的设置页面。</p>
+</li>
+<li><p>点击侧边栏中的 SSH and GPG keys。</p>
+</li>
+<li><p>点击 New SSH key。</p>
+</li>
+<li><p>将 SSH key 粘贴到输入框中。</p>
+</li>
+<li><p>点击 Add SSH key。</p>
+</li>
+<li><p>输入 Github 账户密码确认前面的操作。</p>
+</li>
+</ol>
+<h2 id="部署站点"><a href="#部署站点" class="headerlink" title="部署站点"></a>部署站点</h2><p><strong>deploy</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line"><span class="comment"># hexo deploy -g/--generate 部署之前生成静态文件</span></span><br></pre></td></tr></table></figure>
+<p>部署你的站点。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/05/30/hexo-getting-start/" data-id="cjhtyibzn0000mgmkcn2r7spo" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/学习/">学习</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/学习/前端/">前端</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/学习/前端/hexo/">hexo</a></li></ul></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/05/30/my-first-post/">my-first-post</a>
+          </li>
+        
+          <li>
+            <a href="/2018/05/30/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2018/05/30/hexo-getting-start/">使用 Hexo 构建个人博客站点</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 女林那夕<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
